@@ -1,8 +1,7 @@
 # Sports vs Politics Text Classification
 
-## Course
-Natural Language Understanding  
-Assignment-1  
+## Natural Language Understanding  
+Assignment-1
 
 ## Overview
 
@@ -16,6 +15,20 @@ The dataset is derived from the AG News corpus. From the original four categorie
 The World class was relabeled as **Politics**, while the remaining categories were removed.
 
 ---
+## Project Pipeline
+
+1. Data Selection (AG News Dataset)
+2. Data Cleaning and Preprocessing
+3. Feature Extraction (BoW, TF-IDF)
+4. Model Training (Naive Bayes, Logistic Regression, SVM)
+5. Evaluation (Accuracy, Precision, Recall, F1-score)
+6. Error Analysis and Interpretation
+   
+---
+## Dataset Source
+
+AG News Dataset  
+https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset
 
 ## Dataset
 
@@ -57,7 +70,7 @@ Logistic Regression achieved the highest accuracy.
 
 ## Confusion Matrix (SVM)
 
-![Confusion Matrix](images/svm_confusion_matrix.png)<img width="548" height="455" alt="image" src="https://github.com/user-attachments/assets/74d5ce08-f881-4ab4-a2fc-b250ed71db96" />
+![Confusion Matrix]<img width="548" height="455" alt="image" src="https://github.com/user-attachments/assets/74d5ce08-f881-4ab4-a2fc-b250ed71db96" />
 
 
 ---
