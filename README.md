@@ -70,7 +70,7 @@ Logistic Regression achieved the highest accuracy.
 
 ## Confusion Matrix (SVM)
 
-![Confusion Matrix]<img width="548" height="455" alt="image" src="https://github.com/user-attachments/assets/74d5ce08-f881-4ab4-a2fc-b250ed71db96" />
+<img width="548" height="455" alt="image" src="https://github.com/user-attachments/assets/74d5ce08-f881-4ab4-a2fc-b250ed71db96" />
 
 
 ---
