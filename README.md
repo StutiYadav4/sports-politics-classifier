@@ -30,6 +30,8 @@ The World class was relabeled as **Politics**, while the remaining categories we
 AG News Dataset  
 https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset
 
+The dataset can be downloaded from the above link and has 2 csv files- train and test.
+
 ## Dataset
 
 - Total samples used: 63,800  
