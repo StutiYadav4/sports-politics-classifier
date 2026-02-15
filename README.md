@@ -58,7 +58,7 @@ The following feature extraction techniques were used:
 
 ## Results
 
-| Model | Feature | Accuracy |
+| Model Used | Feature Extraction Technique | Accuracy |
 |--------|----------|----------|
 | Naive Bayes | BoW | 97.54% |
 | Logistic Regression | TF-IDF | 97.73% |
