@@ -78,6 +78,15 @@ The following feature extraction techniques were used:
 
 
 ---
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+---
 
 ## How to Run
 
@@ -85,3 +94,10 @@ The following feature extraction techniques were used:
 
 ```bash
 git clone https://github.com/StutiYadav4/sports-politics-classifier.git
+
+---
+## Author
+
+Stuti Yadav  
+Roll Number: B23CH1044
+
