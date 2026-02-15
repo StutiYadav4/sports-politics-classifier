@@ -5,7 +5,7 @@ Assignment-1
 
 ## Overview
 
-This project implements a machine learning pipeline to classify news articles into:
+This project implements a machine learning pipeline to classify text into:
 
 - Sports  
 - Politics  
@@ -22,7 +22,7 @@ The World class was relabeled as **Politics**, while the remaining categories we
 3. Feature Extraction (BoW, TF-IDF)
 4. Model Training (Naive Bayes, Logistic Regression, SVM)
 5. Evaluation (Accuracy, Precision, Recall, F1-score)
-6. Error Analysis and Interpretation
+6. Interpretation
    
 ---
 ## Dataset Source
@@ -64,22 +64,18 @@ The following feature extraction techniques were used:
 | Logistic Regression | TF-IDF | 97.73% |
 | SVM | TF-IDF | 97.62% |
 
-Logistic Regression achieved the highest accuracy.
-
----
-
-## Confusion Matrix (SVM)
-
-<img width="548" height="455" alt="image" src="https://github.com/user-attachments/assets/74d5ce08-f881-4ab4-a2fc-b250ed71db96" />
-
 
 ---
 
 ## Key Observations
 
-- TF-IDF outperformed raw Bag of Words.
-- All models achieved over 97% accuracy.
-- Strong vocabulary separation exists between Sports and Politics articles.
+- Logistic Regression achieved the highest accuracy (97.73%), closely followed by SVM and Naive Bayes.
+- TF-IDF features slightly outperformed raw Bag of Words, indicating that term weighting improves discriminative power.
+- The high accuracy across all models suggests strong vocabulary separation between Sports and Politics articles.
+- Most misclassifications occurred in cases where articles contained overlapping contextual terms (e.g., political leaders attending sports events).
+- Linear models performed extremely well due to the high-dimensional sparse nature of textual data.
+- The dataset’s balanced class distribution contributed to stable and unbiased model performance.
+
 
 ---
 
