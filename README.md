@@ -67,6 +67,12 @@ The following feature extraction techniques were used:
 
 ---
 
+## Confusion Matrix
+
+<img width="1772" height="490" alt="image" src="https://github.com/user-attachments/assets/77986c96-56b3-4a80-840d-1b34817478ec" />
+
+---
+
 ## Key Observations
 
 - Logistic Regression achieved the highest accuracy (97.73%), closely followed by SVM and Naive Bayes.
@@ -91,13 +97,11 @@ The following feature extraction techniques were used:
 ## How to Run
 
 1. Clone the repository:
-
 ```bash
 git clone https://github.com/StutiYadav4/sports-politics-classifier.git
-
+```
 ---
 ## Author
 
 Stuti Yadav  
 Roll Number: B23CH1044
-
