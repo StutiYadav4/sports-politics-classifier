@@ -1,34 +1,78 @@
 # Sports vs Politics Text Classification
 
-## Problem Description
-This project aims to classify text documents into two categories: Sports and Politics using machine learning techniques.
+## Course
+Natural Language Understanding  
+Assignment-1  
+
+## Overview
+
+This project implements a machine learning pipeline to classify news articles into:
+
+- Sports  
+- Politics  
+
+The dataset is derived from the AG News corpus. From the original four categories 
+(World, Sports, Business, Sci/Tech), only the World and Sports classes were retained.  
+The World class was relabeled as **Politics**, while the remaining categories were removed.
+
+---
 
 ## Dataset
-The dataset consists of two text files:
-- sports.txt: sports-related articles
-- politics.txt: political articles
 
-Each line represents one document.
+- Total samples used: 63,800  
+- Balanced dataset (Sports vs Politics)  
+- Title and description fields were concatenated into a single text feature  
 
-## Feature Representation
-- Bag of Words
+---
+
+## Feature Engineering
+
+The following feature extraction techniques were used:
+
+- Bag of Words (BoW)
 - TF-IDF
-- n-grams
+- Unigram representation
 
-## Machine Learning Models
-- Naive Bayes
-- Logistic Regression
-- Support Vector Machine (SVM)
+---
 
-## Evaluation Metrics
-- Accuracy
-- Precision
-- Recall
-- F1-score
+## Models Compared
 
-## How to Run
-1. Install dependencies
-2. Run training and evaluation scripts from the experiments folder
+1. Multinomial Naive Bayes  
+2. Logistic Regression  
+3. Linear Support Vector Machine (SVM)
+
+---
 
 ## Results
-Quantitative results comparing all three models are included in the report.
+
+| Model | Feature | Accuracy |
+|--------|----------|----------|
+| Naive Bayes | BoW | 97.54% |
+| Logistic Regression | TF-IDF | 97.73% |
+| SVM | TF-IDF | 97.62% |
+
+Logistic Regression achieved the highest accuracy.
+
+---
+
+## Confusion Matrix (SVM)
+
+![Confusion Matrix](images/svm_confusion_matrix.png)<img width="548" height="455" alt="image" src="https://github.com/user-attachments/assets/74d5ce08-f881-4ab4-a2fc-b250ed71db96" />
+
+
+---
+
+## Key Observations
+
+- TF-IDF outperformed raw Bag of Words.
+- All models achieved over 97% accuracy.
+- Strong vocabulary separation exists between Sports and Politics articles.
+
+---
+
+## How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/StutiYadav4/sports-politics-classifier.git
